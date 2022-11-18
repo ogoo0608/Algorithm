@@ -1,2 +1,0 @@
-# -
-Baekjoon Algorithm (C++)
