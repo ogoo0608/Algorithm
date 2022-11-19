@@ -17,7 +17,7 @@ using namespace std;
 int main() {
     
     string id;
-    cin >> id;
+    cin >> id;S
     
     id += "??!";
     cout << id;
