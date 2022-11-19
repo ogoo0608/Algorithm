@@ -27,3 +27,9 @@ int main()
 
 // cout.precision == 유효숫자 표기 명령어
 // cout << fixed; == 소수점 아래부터 유효숫자를 세겠다는 의미
+
+/*
+왜 float가 아닌 double형인가?
+둘 다 실수형 데이터 타입.
+그러나 float은 소수점 이하 6자리까지, double은 소수점 이하 15자리까지이기 때문에 이 문제에서는 double이 맞다.
+*/
