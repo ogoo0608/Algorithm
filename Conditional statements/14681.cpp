@@ -18,3 +18,15 @@
 출력
 점 (x, y)의 사분면 번호(1, 2, 3, 4 중 하나)를 출력한다.
 */
+
+#include <iostream> 
+
+using namespace std;
+
+int main() {
+	int a, b;
+	cin >> a >> b;
+	cout << ((a > 0 && b > 0) ? "1" : (a < 0 && b > 0) ? "2" : 
+			 (a < 0 && b < 0) ? "3" : (a > 0 && b < 0) ? "4" : "what");
+	return 0;
+}
